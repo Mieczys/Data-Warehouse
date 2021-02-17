@@ -37,4 +37,4 @@ P_ADMIN = Administrator user password
 
 ```
 
-6.Finally, go to the frontend folder and read the next README.md
+6. Finally, go to the frontend folder and read the next README.md
