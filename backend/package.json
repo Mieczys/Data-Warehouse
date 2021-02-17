@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend dataWarehouse",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mieczys/Data-Warehouse.git"
+  },
+  "author": "Ibrian Festorazzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mieczys/Data-Warehouse/issues"
+  },
+  "homepage": "https://github.com/Mieczys/Data-Warehouse#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.5.1",
+    "sequelize": "^6.3.5"
+  }
+}

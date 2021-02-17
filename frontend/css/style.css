@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body > header {
+  border-bottom: 2px solid darkgrey;
+}
+
+body > header > nav {
+  /* #logo-title{
+                font-size: 28px;
+            } */
+}
+
+body > header > nav > img {
+  height: 60px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: var(--info) !important;
+}
+
+body main section {
+  padding-top: 8vh;
+}
+
+body main #section_login {
+  padding-top: unset;
+}
+
+body main #contacts > div #input_contacts {
+  width: 30%;
+}
+
+body main #contacts > #table_contacts_wrapper > div > div #table_contacts_filter > label #input_bar:focus {
+  -webkit-box-shadow: 0 1px 0 0 var(--info);
+          box-shadow: 0 1px 0 0 var(--info);
+}
+
+body main #contacts > #table_contacts_wrapper > div > div #table_contacts_length > label {
+  margin-left: 3rem;
+  margin-top: 0.2rem;
+}
+
+body main #contacts > #table_contacts_wrapper > div > div #table_contacts_length > label > select {
+  -webkit-box-shadow: 0 1px 0 0 var(--info);
+          box-shadow: 0 1px 0 0 var(--info);
+}
+
+body main #contacts > #table_contacts_wrapper > div > div > #table_contacts .odd .dataTables_empty {
+  display: none;
+}
+
+body main #contacts > #table_contacts_wrapper > div > div > #table_contacts .odd.selected {
+  background-color: grey;
+}
+
+body main #contacts > #table_contacts_wrapper > div > div > #table_contacts .even.selected {
+  background-color: grey;
+}
+
+body main #contacts > #table_contacts_wrapper > div > div > #table_contacts > tbody > tr > td:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+}
+
+body main #contacts > #table_contacts_wrapper > div > div > #table_contacts > tbody > tr > .select-checkbox::before {
+  margin-top: 10px;
+}
+
+body main #contacts > #table_contacts_wrapper > div > div > #table_contacts > tbody > tr > .select-checkbox::after {
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+body main #contacts > #table_contacts_wrapper > div {
+  position: relative;
+  z-index: 1;
+}
+
+body main #contacts > #table_contacts_wrapper > div > div #table_contacts_paginate > ul > li > a {
+  color: #212529;
+}
+
+body main #contacts > #table_contacts_wrapper > div > div #table_contacts_paginate > ul > li.active a {
+  background-color: var(--info) !important;
+  border: var(--info);
+  color: honeydew;
+}
+
+body main #contacts > #table_contacts_wrapper > div > div #table_contacts_paginate > ul > li.disabled > a {
+  color: grey;
+}
+
+body main #contacts > button {
+  position: relative;
+  margin-top: -2.2rem;
+  z-index: 5;
+}
+
+body main #companies .active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #4dd0e1;
+  -webkit-box-shadow: 0 1px 0 0 #4dd0e1;
+          box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+body main #companies .active-cyan input.form-control[type=text] {
+  border-bottom: 1px solid #4dd0e1;
+  -webkit-box-shadow: 0 1px 0 0 #4dd0e1;
+          box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+body main #location #location_tree ul li a {
+  font-size: 18px;
+}
+
+body main #location #location_tree ul li {
+  margin: 5px 0;
+}
+
+body main #modals input[type=number]::-webkit-inner-spin-button,
+body main #modals input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+}
+
+body main #modals #add_contact div div .modal-body {
+  background-image: url(../assets/person-plus.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+body main #modals #modal_add_company div div .modal-body {
+  background-image: url(../assets/building.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 16%;
+}
+
+body main #modals #modal_location_add div div .modal-body {
+  background-image: url(../assets/geo-alt-fill.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 16%;
+}
+
+body main #modals #modal_user_add div div .modal-body {
+  background-image: url(../assets/person-lines-fill.svg);
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+/*# sourceMappingURL=style.css.map */
